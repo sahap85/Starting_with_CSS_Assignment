@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment-1</title>
+
+<style>
+.internal {
+color: green;
+}
+.inline__internal {
+color: red;
+}
+ .internal__ext {
+color: brown;
+} 
+.inline__internal__external {
+color: aqua;
+}
+</style>
+ <!-- linking stylesheet with html -->
+<link rel="stylesheet" href="1_style.css">
+</head>
+<body>
+<div style="color: red;">
+    Inline
+</div>
+<div class="internal">
+    Internal
+</div>
+<div class="external">
+    External
+</div>
+<div style="color: rgb(33, 10, 1)eviolet;" class="inline__internal">
+    Inline + Internal
+</div>
+<div class="int__external internal__ext">
+    Internal + External
+</div>
+<div style="color: rgb(33, 10, 1);" class="inline__internal__external">
+    Inline + Internal +External
+</div>
+</body>
+</html>
